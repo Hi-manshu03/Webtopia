@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webtopia - Sell Your Website</title>
+  <style>
+    /* Basic Reset */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Body Styling */
+    body {
+      background: url("DALL·E\ 2024-11-11\ 04.19.26\ -\ A\ minimalistic\,\ professional\ background\ image\ for\ a\ website\ related\ to\ technology\ and\ web\ development.\ The\ background\ should\ have\ a\ beige\ and\ smoky\ wh.webp") no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Header Styling */
+    header {
+      background-color: rgba(210, 180, 140, 0.9);
+      color: #333;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 8px;
+    }
+
+    nav a {
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 4px 15px;
+    }
+
+    nav a:hover {
+      color: #D2B48C;
+      background-color: #333;
+      border-radius:100px;
+    }
+
+    /* Sell Form Section */
+    .sell-form {
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 40px 20px;
+      margin: 40px auto;
+      max-width: 500px;
+      border-radius: 8px;
+    }
+
+    .sell-form h2 {
+      font-size: 2rem;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .sell-form label {
+      display: block;
+      margin-bottom: 8px;
+      font-weight: bold;
+    }
+
+    .sell-form input, .sell-form textarea {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+
+    .sell-form button {
+      width: 100%;
+      background-color: #D2B48C;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .sell-form button:hover {
+      background-color: #b6967e;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Webtopia - Sell Your Website</h1>
+    <nav>
+      <ul>
+        <li><a href="home page.html">Home</a></li>
+        <li><a href="showcase.html">Showcase</a></li>
+        <li><a href="buy section.html">Buy Websites</a></li>
+        <li><a href="contact us.html">Contact Us</a></li>
+        <li><a href="sell section.html">Sell</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Sell Form Section -->
+  <section class="sell-form">
+    <h2>Sell Your Website</h2>
+    <form>
+      <label for="website-name">Website Name</label>
+      <input type="text" id="website-name" name="website-name" placeholder="Enter your website name" required>
+
+      <label for="website-url">Website URL</label>
+      <input type="url" id="website-url" name="website-url" placeholder="Enter your website URL" required>
+
+      <label for="description">Description</label>
+      <textarea id="description" name="description" rows="4" placeholder="Describe your website"></textarea>
+
+      <label for="price">Asking Price ($)</label>
+      <input type="number" id="price" name="price" placeholder="Enter your asking price" required>
+
+      <button type="submit" onclick="alert('Your website listing request has been submitted!')">Submit</button>
+    </form>
+  </section>
+
+</body>
+</html>

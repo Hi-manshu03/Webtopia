@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webtopia - Homepage</title>
+  <style>
+    /* Basic Reset */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Body Styling with Background Image */
+    body {
+      background: url("DALL·E\ 2024-11-11\ 04.19.26\ -\ A\ minimalistic\,\ professional\ background\ image\ for\ a\ website\ related\ to\ technology\ and\ web\ development.\ The\ background\ should\ have\ a\ beige\ and\ smoky\ wh.webp") no-repeat center center fixed;
+      background-size: cover;
+      color:black;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    /* Header Styling */
+    header {
+      background-color: rgba(210, 180, 140, 0.9); /* Beige with slight transparency */
+      color: #333;
+      padding: 20px;
+      width: 100%;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      margin-bottom: 10px;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    nav a {
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 5px 15px;
+    }
+
+    nav a:hover {
+      color: #D2B48C;
+      background-color: #333;
+      border-radius: 5px;
+    }
+
+    /* Home Section Styling */
+    .home-section {
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    .home-section h2 {
+      font-size: 2.5rem;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    .home-section p {
+      font-size: 1.2rem;
+      color: #666;
+      margin-bottom: 20px;
+    }
+
+    .home-section button {
+      background-color: #D2B48C;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .home-section button:hover {
+      background-color: #b6967e;
+    }
+
+    /* Showcase Section */
+    .showcase-section {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 20px;
+      padding: 40px;
+      max-width: 800px;
+      width: 100%;
+    }
+
+    .website-card {
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+    }
+
+    .website-card img {
+      width: 100%;
+      height: auto;
+      object-fit: cover;
+    }
+
+    .website-card h3 {
+      padding: 10px;
+      color: #333;
+      text-align: center;
+    }
+
+    /* Newsletter Section */
+    .newsletter {
+      margin-top: 40px;
+      padding: 20px;
+      background-color: rgba(240, 240, 240, 0.9);
+      border-radius: 8px;
+      text-align: center;
+      max-width: 600px;
+      width: 100%;
+    }
+
+    .newsletter input[type="email"] {
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 5px;
+      width: 80%;
+      border: 1px solid #ccc;
+      margin-bottom: 10px;
+    }
+
+    .newsletter button {
+      padding: 10px 20px;
+      background-color: #D2B48C;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .newsletter button:hover {
+      background-color: #b6967e;
+    }
+
+    /* Footer Styling */
+    footer {
+      background-color: #333;
+      color: #D2B48C;
+      text-align: center;
+      padding: 10px;
+      width: 100%;
+      margin-top: 40px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Webtopia</h1>
+    <nav>
+      <ul>
+        <li><a href="home page.html">Home</a></li>
+        <li><a href="showcase.html">Showcase</a></li>
+        <li><a href="buy section.html">Buy Websites</a></li>
+        <li><a href="contact us.html">Contact Us</a></li>
+        <li><a href="sell section.html">Sell</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Home Section -->
+  <section class="home-section" id="home">
+    <h2>Welcome to Webtopia</h2>
+    <p>Your one-stop platform to buy, sell, and showcase websites.</p>
+    <button onclick="showAlert()">Get Started</button>
+  </section>
+
+  <!-- Showcase Section -->
+  <section class="showcase-section">
+    <div class="website-card">
+      <img src="home 1st.png" alt="Website 1">
+      <h3></h3>
+    </div>
+    <div class="website-card">
+      <img src="home 2nd.png" alt="Website 2">
+      <h3></h3>
+    </div>
+    <div class="website-card">
+      <img src="home 3rd.png" alt="Website 3">
+      <h3></h3>
+    </div>
+    <div class="website-card">
+      <img src="home .4th error.png" alt="Website 4">
+      <h3></h3>
+    </div>
+    <div class="website-card">
+      <img src="home 5th.png" alt="Website 5">
+      <h3></h3>
+    </div>
+    <div class="website-card">
+      <img src="home 6th.png" alt="Website 6">
+      <h3></h3>
+    </div>
+  </section>
+
+  <!-- Newsletter Section -->
+  <section class="newsletter">
+    <h2>Stay Updated</h2>
+    <p>Subscribe to our newsletter to receive the latest listings, updates, and exclusive offers!</p>
+    <input type="email" placeholder="Enter your email" required>
+    <button>Subscribe</button>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Webtopia. All rights reserved.</p>
+  </footer>
+
+  <script>
+    function showAlert() {
+      alert("Welcome to Webtopia! Start exploring websites.");
+    }
+  </script>
+
+</body>
+</html>

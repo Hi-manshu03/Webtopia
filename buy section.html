@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Webtopia - Buy Websites</title>
+  <script>
+    // JavaScript for handling modal
+    function showModal(title, description) {
+      document.getElementById("modal-title").innerText = title;
+      document.getElementById("modal-description").innerText = description;
+      document.getElementById("modal").style.display = "flex";
+    }
+
+    function closeModal() {
+      document.getElementById("modal").style.display = "none";
+    }
+  </script>
+
+  <style>
+    /* Basic Reset */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    /* Body Styling */
+    body {
+      background: url("DALL·E\ 2024-11-11\ 04.19.26\ -\ A\ minimalistic\,\ professional\ background\ image\ for\ a\ website\ related\ to\ technology\ and\ web\ development.\ The\ background\ should\ have\ a\ beige\ and\ smoky\ wh.webp") no-repeat center center fixed;
+      background-size: cover;
+      color: #333;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* Header Styling */
+    header {
+      background-color: rgba(210, 180, 140, 0.9);
+      color: #333;
+      padding: 20px;
+      text-align: center;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #333;
+      text-decoration: none;
+      font-weight: bold;
+      padding: 5px 20px;
+      margin-bottom: 10px;
+    }
+
+    nav a:hover {
+      color: #D2B48C;
+      background-color: #333;
+      border-radius: 100px;
+    }
+
+    /* Buy Section */
+    .buy-section {
+      padding: 40px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+    }
+
+    .website-card {
+      background-color: #f0f0f0;
+      padding: 20px;
+      border-radius: 50px;
+      width: 250px;
+      text-align: center;
+      margin-left: 250px;
+    }
+
+    .website-card h3 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .website-card p {
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .website-card button {
+      background-color: #D2B48C;
+      color: #fff;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 50px;
+      cursor: pointer;
+      font-size: 1rem;
+    }
+
+    .website-card button:hover {
+      background-color: #b6967e;
+    }
+
+    /* Modal Styling */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+      justify-content: center;
+      align-items: center;
+    }
+
+    .modal-content {
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      width: 300px;
+      text-align: center;
+      position: relative;
+    }
+
+    .modal-content h3 {
+      margin-bottom: 10px;
+      color: #333;
+    }
+
+    .modal-content p {
+      color: #666;
+    }
+
+    .close-button {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: #333;
+      color: #fff;
+      border: none;
+      padding: 5px 10px;
+      cursor: pointer;
+      border-radius: 50%;
+    }
+    .website-card img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 50px;
+      margin-bottom: 10px;}
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Webtopia - Buy Websites</h1>
+    <nav>
+      <ul>
+        <li><a href="home page.html">Home</a></li>
+        <li><a href="showcase.html">Showcase</a></li>
+        <li><a href="buy section.html">Buy Websites</a></li>
+        <li><a href="contact us.html">Contact Us</a></li>
+        <li><a href="sell section.html">Sell</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Buy Websites Section -->
+  <section class="buy-section" id="buy-section">
+    <div class="website-card">
+      <img src="image . website.jpg" alt="Website 1">
+      <p>Price: ₹750</p>
+      <button onclick="showModal('CV Maker','')">View Details</button>
+    </div>
+
+    <div class="website-card">
+      <img src="website image 1.png" alt="Website 2">
+      <p>Price: ₹750</p>
+      <button onclick="showModal('Learn AI','')">View Details</button>
+    </div>
+
+    <div class="website-card">
+      <img src="website image 3.png" alt="Website 3">
+      <p>Price: ₹750</p>
+      <button onclick="showModal('Child Play','')">View Details</button>
+    </div>
+
+    <div class="website-card">
+      <img src="website image 4.png" alt="Website 4">
+      <p>Price: ₹750</p>
+      <button onclick="showModal('Business Analist','')">View Details</button>
+    </div>
+    <div class="website-card">
+      <img src="website image 6.png" alt="Website 5">
+      <p>Price: ₹750</p>
+      <button onclick="showModal('Stock View','')">View Details</button>
+    </div>
+    <div class="website-card">
+      <img src="website image 88.png" alt="Website 6">
+      <p>Price: ₹750</p>
+      <button onclick="showModal('LOGOmaker','')">View Details</button>
+    </div>
+    <div class="website-card">
+      <img src="websiste image 77.png" alt="Website 7">
+      <p>Price: ₹750</p>
+      <button onclick="showModal('Clone.me','')">View Details</button>
+    </div>
+    <div class="website-card">
+      <img src="website image 7.png" alt="Website 8">
+      <p>Price: ₹750</p>
+      <button onclick="showModal('Game view', '')">View Details</button>
+    </div>
+  </section>
+
+  <!-- Modal -->
+  <div class="modal" id="modal">
+    <div class="modal-content">
+      <button class="close-button" onclick="closeModal()">X</button>
+      <h3 id="modal-title"></h3>
+      <p id="modal-description"></p>
+      <button onclick="alert('Contact seller for more details!')">Contact Seller</button>
+    </div>
+  </div>
+</body>
+</html>
